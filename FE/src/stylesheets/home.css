@@ -1,0 +1,493 @@
+.banner{
+        position: relative;
+        height: 450px;
+}
+#welcome_image_div{
+        height: 450px;
+        overflow: hidden;
+        background-size: cover;
+        width: 100%;
+        background-repeat: round;
+}
+.image-text {
+    text-transform: none;
+    position: absolute;
+    bottom: 242px;
+    color: #fff;
+    width: 100%;
+    height: 41px;
+    letter-spacing: 0;
+    text-shadow: 0 2px 4px rgba(0,0,0,.5);
+    text-align: center;
+}
+.main-header-family {
+    font-weight: 600;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+#search-div {
+    position: absolute;
+    bottom: 170px;
+    width: 100%;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    height: 0;
+    clear: both;
+    visibility: hidden;
+}
+#search {
+    width: 972px;
+    margin-top: 30px;
+    text-align: center;
+    margin: 0 auto;
+}
+.search-wrap {
+    position: relative!important;
+    display: inline-block;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.18);
+    z-index: 5;
+}
+.search-box {
+    position: relative;
+}.search-box {
+    width: 225px;
+    border: 1px solid #d2d2d2;
+    height: 46px;
+    background-color: #fff;
+}.fl {
+    float: left;
+}
+input.db {
+    color: #404040;
+    width: 75%;
+    height: 44px;
+    padding-top: 6%;
+    font-weight: 400;
+    font-size: 14px;
+}.db {
+    display: block;
+    border: none;
+}.db {
+    display: block!important;
+}
+label.db {
+    color: #4a4a4a;
+    position: absolute;
+    bottom: 0;
+    left: 14%;
+    font-size: 12px;
+    top: 35%;
+    height: 25px;
+    -webkit-transition: all .3s ease;
+    letter-spacing: 1px;
+    font-weight: 400;
+    letter-spacing: 0!important;
+    line-height: 15px;
+}
+.move-up {
+    top: 12%!important;
+    font-size: 10px!important;
+    color: #9b9b9b!important;
+    font-weight: 100!important;
+}
+.db {
+    display: block!important;
+}
+#togglebtn {
+    margin: 20px 10px 0 0;
+    float: left;
+    cursor: pointer;
+    width: 15px;
+    height: 30px;
+    transform: rotate(0deg);
+    transition: transform .5s ease-in;
+    top: -5.5px;
+    left: 210px;
+    position: absolute;
+    z-index: 1;
+}
+.f1{
+    float: left;
+}
+/* [class*=" icon-"], [class^=icon-] {
+    font-family: icomoon!important;
+    speak: never;
+    font-style: normal;
+    font-weight: 400;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+} */
+#togglebtn:before {
+    color: #829595;
+    font-size: 16px;
+    border-radius: 15px;
+    border: 2px solid #829595;
+    padding: 2px;
+    border-color: #829595;
+    background-color: #fff;
+}
+.icon-doublearrow:before {
+    content: url("/images/reverse-arrow.svg");
+    color: gray;
+}
+.date-box {
+    width: 168px!important;
+}
+#onward_cal, #return_cal {
+    height: 44px;
+    text-align: left;
+    padding-top: 7%;
+}
+#onward_cal {
+    width: 100%;
+    position: relative;
+    padding-left: 38px;
+}
+.date-box label.db {
+    left: 23%;
+    top: 35%;
+}
+.move-up {
+    top: 12%!important;
+    font-size: 10px!important;
+    color: #9b9b9b!important;
+    font-weight: 100!important;
+}
+.icon-city {
+    font-size: 23px;
+    padding-top: 4.3%;
+    padding-right: 2.4%;
+    padding-left: 2%;
+    color: gray;
+    width: 25px;
+    margin-left: 10px;
+}
+.icon-city:before {
+    content: url("/images/building.svg");
+}
+.icon-calendar_icon-new {
+    font-size: 23px;
+    display: inline-block;
+    padding-top: 6.5%;
+    padding-right: 8%;
+    padding-left: 6%;
+    color: gray;
+    position: absolute;
+    left: 0;
+    z-index: 3;
+    width: 45px;
+}
+.icon-calendar_icon-new:before {
+    content: url("/images/calendar.svg")
+}
+#search_btn {
+    height: 46px;
+    width: 144px;
+    border-width: 0;
+    background-color: #d74f57;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900!important;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: none;
+}
+.button {
+    display: inline-block;
+    padding: 6px 16px 7px;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 400;
+    overflow: hidden;
+    position: relative;
+    text-decoration: none;
+    transition: .1s;
+    border: none;
+    text-align: center;
+    background-color: #d84e55;
+    color: #fff;
+}
+#search_btn, html input[type=button], input[type=reset], input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgba(90, 90, 90, 0.5);
+    z-index: 9999;
+  }
+  
+  #popdiv {
+    height:100%;
+    width: 100%;
+    background-color: transparent white;
+    /* position: fixed; */
+    top: 50px;
+    left: 50px;
+  }
+  .overlayP{
+    /* position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0; */
+    background: rgba(90, 90, 90, 0.5);
+    z-index: 9999;
+  }
+  .search-box input{
+      text-transform: uppercase;
+  }
+  #disabled{
+    background-color: gray;
+    height: 46px;
+    width: 144px;
+    border-width: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 900!important;
+    font-style: normal;
+    font-stretch: normal;
+    text-transform: none;
+  }
+/*==================================Seats CSS===================================================*/
+
+.BusDetails{
+    float: left;
+    margin-top: 70px;
+    width: 100%;
+}
+.busInfo{
+    width:80%;
+    height: 50px;
+    /* box-shadow: 4px 5px 4px 4px #292929;    */
+    background-color:white;
+    margin-left:600px;
+
+}
+#busSelect{
+    color:black;
+}
+
+.busInfo li{
+    float: left;
+    font-weight: 900;
+    width:150px;
+    /* height: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex: 0 25%;
+}
+.bus-result-container{
+    /* position: absolute; */
+}
+.bus-result-container ul{
+    height: 50px;
+    width: 96.5%;
+}
+.bus-result-container ul li{
+    /* float: left; */
+    text-decoration: none;
+   list-style-type: none;
+    /* margin-top: 10px;
+    padding: 5px;
+    margin-left: 10px;
+    
+    box-shadow: 4px 5px 4px 4px #292929;    */
+    background-color:white;
+    /* height: 50px; */
+    /* box-shadow: 4px 5px 4px 4px #292929;    */
+   
+}
+.bus-result{
+    min-height: 200px;
+    border: 1px solid black;
+    margin-bottom: 10px;
+    display: flex;
+}
+.bus-name-area li{
+    margin-top: 25px;
+}
+.travel-plan{
+    background: gray;
+    width: 96.5%;
+}
+.bus-Info{
+    margin-left:450px;
+
+}
+.bus-Info li{
+    float: left;
+    font-weight: 900;
+    width:150px;
+    /* height: 50px; */
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex: 0 25%;
+    margin-top: 15px;
+}
+#view-seats{
+    margin-left: -110px;
+    margin-top: 45px;
+}
+.display-none{
+    display: none;
+}
+
+
+.signupMsg{
+    width: 500px;
+    margin-left: auto;
+    margin-right: 100px;
+    box-shadow: 10px 10px 8px white;
+    height:40px;
+}
+h2{
+    color: black;
+}
+.registerForm {
+    width: 30%;
+    min-height: 450px;
+    margin: 30px;
+    margin-left: 900px;
+    border: 1px solid black;
+    opacity: 0.8;
+    background-color: black;
+    box-shadow: 15px 15px 45px 8px white;
+    border-radius: 5px;
+    /* position: relative; */
+  }
+  .form-group input {
+    margin-top: 5px;
+    width: 50%;
+    height: 30px;
+    padding: 15px;
+    margin-bottom: 10px;
+    border: none;
+    color: black;
+    background: #f1f1f1;
+    border: solid 1px rgb(17, 16, 16);
+  }
+  .form-group input:focus {
+    background-color: black;
+    border-color: white;
+    box-shadow: 15px 15px 15px #888888;
+    border-radius: 5px;
+    outline: none;
+    color: pink;
+  }
+  
+  #gen {
+    margin-left: 25px;
+  }
+  .gg {
+    display: block;
+  }
+  .gg input {
+    height: auto;
+    margin-left: 120px;
+  }
+  .form-groupG label {
+    color: white;
+    /* margin-left: 5px; */
+  }
+  #Male {
+    margin-left: 5px;
+  }
+  .emailField {
+    margin-left: 50px;
+  }
+  .passwordField {
+    margin-left: 20px;
+  }
+  .nameField {
+    margin-left: 45px;
+  }
+  .mobileField {
+    margin-left: 40px;
+  }
+  .dobField {
+    margin-left: 50px;
+  }
+  #registerH {
+    margin-top: 30px;
+    margin-left: 30px;
+    color: white;
+  }
+  .form-group label {
+    color: white;
+    margin-left: 25px;
+  }
+  
+  #registerBtn {
+    background-color: green;
+    color: white;
+    font-size: 20px;
+    height: 40px;
+    border: none;
+    border-radius: 4px;
+    width: 100px;
+    cursor: pointer;
+    margin-left: 150px;
+    margin-top: 25px;
+  }
+  #registerBtn:hover {
+    background-color: white;
+    border-color: black;
+    box-shadow: 1px 4px 4px #888888;
+    border-radius: 5px;
+    outline: none;
+    color: black;
+  }
+  .content{
+    top: 0;
+    height: 60px;
+    width: 100%;
+    margin-top: 0;
+    margin-left: 0;
+    background: #95a5a6;
+    box-shadow: 15px 15px 8px #292929;
+    position: absolute;;
+}
+
+/* .login-btn{
+    background-color: white;
+    border: none;
+    color: black;
+    float: right;
+}
+.signUpbtn {
+    background-color: rgb(102, 68, 182);
+    border: none;
+    color: white;
+    float: right;
+}
+.login-btn, .signUpbtn{
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+} */
+.signUpbtn:hover, .login-btn:hover, .homeBtn:hover{
+    box-shadow: 8px 15px 15px black;
+    border: solid 1px black;
+    border-radius: 5px;
+}
+
+.userWelcome{
+    top:150px;
+}  
